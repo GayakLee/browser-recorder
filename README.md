@@ -6,6 +6,22 @@ Browser Recorder is independent of VSCode Movie and does not access your existin
 
 Previously named Browser Movie and Browser Record. The project, repository, launcher, and MCP server now use `browser-recorder`. Existing tool names (`movie_create`, `movie_status`, `movie_cancel`, `recording_start`, `browser_action`, `recording_stop`) remain compatible. Rename the MCP server entry and update its absolute path when migrating an existing client. Legacy `BROWSER_RECORD_*` and `BROWSER_MOVIE_*` environment settings remain accepted; prefer `BROWSER_RECORDER_*` for new configurations.
 
+## Watch the demos
+
+[![English Wikipedia recording preview](assets/wikipedia-demo.jpg)](https://github.com/GayakLee/browser-recorder/releases/download/demos-v1/english-wikipedia.mp4)
+
+Click the preview to open the English Wikipedia recording, or browse all videos in the [demo release](https://github.com/GayakLee/browser-recorder/releases/tag/demos-v1).
+
+| Video | What it shows |
+| --- | --- |
+| [English Wikipedia walkthrough, 31 seconds](https://github.com/GayakLee/browser-recorder/releases/download/demos-v1/english-wikipedia.mp4) | MCP-only search, navigation between articles, physical zoom and scrolling; 1080p, 30fps |
+| [60fps vs 120fps comparison, 9 seconds](https://github.com/GayakLee/browser-recorder/releases/download/demos-v1/wiki-60-vs-120fps.mp4) | Synchronized views, 60fps on the left and 120fps on the right, with 900ms zooms |
+| [60fps original](https://github.com/GayakLee/browser-recorder/releases/download/demos-v1/wiki-60fps.mp4) · [120fps original](https://github.com/GayakLee/browser-recorder/releases/download/demos-v1/wiki-120fps.mp4) | Full-resolution recordings for playback comparison |
+
+The comparison uses 900ms zooms and automatic frame pacing, without generated frame interpolation. On the test machine, decoded zoom motion measured about 58.9 distinct changes per second at the 60fps target and 58.1 at the 120fps target. The 120fps file does not demonstrate 120 unique motion frames per second. The walkthrough is an earlier 30fps recording; the current example defaults to 60fps and 900ms zooms.
+
+Wikipedia page content is credited to its contributors under its applicable licenses. See [demo content attribution](THIRD_PARTY_NOTICES.md#demo-content-attribution). The video files are release assets; cloning the source does not download them.
+
 ## Choose how to run
 
 | Entry point | Default browser mode | Intended use |
