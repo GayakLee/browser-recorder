@@ -4,9 +4,9 @@ Record browser interactions as MP4 through a command-line interface or the Model
 
 ## Watch the demos
 
-[![Animated English Wikipedia recording](assets/wikipedia-demo.gif)](https://github.com/GayakLee/browser-recorder/releases/download/demos-v1/english-wikipedia.mp4)
+[![Smooth 900ms zoom on English Wikipedia](assets/wikipedia-demo.gif)](https://github.com/GayakLee/browser-recorder/releases/download/demos-v1/wiki-60fps.mp4)
 
-The demo above plays here automatically as a looping GIF. It is a reduced-size, 8fps preview for the README, not an FPS comparison. Click it for the full-resolution MP4, or browse all videos in the [demo release](https://github.com/GayakLee/browser-recorder/releases/tag/demos-v1).
+The demo above plays here automatically as a looping GIF. This 25fps preview shows a short zoom-in/out sequence from the recent 60fps recording, using 900ms zooms. It is resized for the README and is not an FPS comparison. Click it for the full-resolution MP4, or browse all videos in the [demo release](https://github.com/GayakLee/browser-recorder/releases/tag/demos-v1).
 
 | Video | What it shows |
 | --- | --- |
