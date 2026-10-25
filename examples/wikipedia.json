@@ -1,0 +1,87 @@
+{
+  "name": "english-wikipedia-demo",
+  "url": "https://en.wikipedia.org/wiki/Web_browser",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "headless": true,
+  "actions": [
+    {
+      "action": "wait",
+      "durationMs": 1400
+    },
+    {
+      "action": "zoom",
+      "scale": 1.4,
+      "selector": "#firstHeading"
+    },
+    {
+      "action": "wait",
+      "durationMs": 900
+    },
+    {
+      "action": "zoom",
+      "scale": 1,
+      "selector": "#firstHeading"
+    },
+    {
+      "action": "scroll",
+      "y": 650,
+      "durationMs": 2000
+    },
+    {
+      "action": "wait",
+      "durationMs": 1200
+    },
+    {
+      "action": "scroll",
+      "y": -650,
+      "durationMs": 1800
+    },
+    {
+      "action": "type",
+      "selector": "#searchInput",
+      "text": "Computer animation",
+      "delayMs": 110
+    },
+    {
+      "action": "wait",
+      "durationMs": 700
+    },
+    {
+      "action": "click",
+      "selector": "button:has-text(\"Search\")"
+    },
+    {
+      "action": "wait",
+      "durationMs": 1800
+    },
+    {
+      "action": "zoom",
+      "scale": 1.4,
+      "selector": "#firstHeading"
+    },
+    {
+      "action": "wait",
+      "durationMs": 900
+    },
+    {
+      "action": "scroll",
+      "y": 550,
+      "durationMs": 2000
+    },
+    {
+      "action": "wait",
+      "durationMs": 1100
+    },
+    {
+      "action": "zoom",
+      "scale": 1
+    },
+    {
+      "action": "wait",
+      "durationMs": 1200
+    }
+  ],
+  "zoomDurationMs": 900
+}

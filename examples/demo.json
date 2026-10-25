@@ -1,0 +1,13 @@
+{
+  "name": "browser-demo", "width": 1920, "height": 1080, "fps": 30, "headless": true,
+  "html": "<!doctype html><html lang='en'><meta charset='utf-8'><title>Browser Recorder Demo</title><style>body{margin:0;background:#10131a;color:#e7eaf3;font:28px system-ui}main{max-width:1100px;margin:100px auto}h1{font-size:64px}input,button{font:inherit;padding:20px;border-radius:10px;border:1px solid #566078}button{background:#a3e635;color:#141a11;cursor:pointer}input{width:600px;background:#202633;color:white}section{margin-top:60px;padding:40px;background:#202633;border-radius:14px;min-height:240px}#result{color:#a3e635}footer{padding-top:600px;color:#9ca8bf}</style><main><p>BROWSER RECORDER</p><h1>From input to results, in one recording</h1><input id='query' aria-label='Search query' placeholder='Enter a search query'><button id='search' onclick=\"document.querySelector('#result').textContent='Search complete: '+document.querySelector('#query').value\">Search</button><section><h2>Results</h2><p id='result'>No search yet.</p></section><footer>Scrolling is recorded automatically.</footer></main></html>",
+  "actions": [
+    { "action": "wait", "durationMs": 700 },
+    { "action": "type", "selector": "#query", "text": "Create a browser recording", "delayMs": 140 },
+    { "action": "wait", "durationMs": 800 },
+    { "action": "click", "selector": "#search" },
+    { "action": "wait", "durationMs": 1500 },
+    { "action": "scroll", "y": 550, "durationMs": 1300 },
+    { "action": "wait", "durationMs": 1000 }
+  ]
+}

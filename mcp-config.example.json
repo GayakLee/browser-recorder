@@ -1,0 +1,1 @@
+{ "mcpServers": { "browser-recorder": { "command": "node", "args": ["/absolute/path/to/browser-recorder/mcp.mjs"] } } }

@@ -1,0 +1,24 @@
+{
+  "name": "browser-recorder",
+  "version": "0.1.0",
+  "description": "Record browser actions and anchored physical zoom as MP4 through CLI or MCP.",
+  "license": "MIT",
+  "author": "GayakLee",
+  "repository": { "type": "git", "url": "https://github.com/GayakLee/browser-recorder.git" },
+  "engines": { "node": ">=24" },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node cli.mjs",
+    "mcp": "node mcp.mjs",
+    "demo": "node cli.mjs render examples/wikipedia.json",
+    "test": "node --test --test-concurrency=1 test/*.test.mjs",
+    "check:git": "node tools/check-git-content.mjs",
+    "build:launcher": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/build-launcher.ps1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "playwright": "1.64.1",
+    "zod": "4.6.7"
+  }
+}
