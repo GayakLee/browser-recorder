@@ -28,11 +28,11 @@ External website imagery, names, logos, and text remain subject to their respect
 
 ## Demo content attribution
 
-The demo videos and assets/wikipedia-demo.jpg show English Wikipedia as recorded on October 25, 2026. Article text is by Wikipedia contributors and is reused under [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Sources and contributor histories:
+The demo videos and assets/wikipedia-demo.jpg and assets/wikipedia-demo.gif show English Wikipedia as recorded on October 25, 2026. Article text is by Wikipedia contributors and is reused under [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Sources and contributor histories:
 
 - [Web browser](https://en.wikipedia.org/wiki/Web_browser), [history and contributors](https://en.wikipedia.org/w/index.php?title=Web_browser&action=history).
 - [Computer animation](https://en.wikipedia.org/wiki/Computer_animation), [history and contributors](https://en.wikipedia.org/w/index.php?title=Computer_animation&action=history).
 
-Changes made for the demonstration are screen capture, physical zoom, scrolling, search/navigation, and a resized preview. The comparison also synchronizes and crops the captures into two views and adds FPS labels. No motion interpolation was used. Original recording/editing contributions to these demos and the preview are made available under CC BY-SA 4.0; the project's MIT License applies to the software, not the captured article content.
+Changes made for the demonstration are screen capture, physical zoom, scrolling, search/navigation, and resized static/animated previews. The animated README preview is downsampled to 8fps and loops. The comparison also synchronizes and crops the captures into two views and adds FPS labels. No motion interpolation was used. Original recording/editing contributions to these demos and the preview are made available under CC BY-SA 4.0; the project's MIT License applies to the software, not the captured article content.
 
 Images and embedded media visible within the articles retain their separate licenses and author credits, accessible through each media item on the linked article pages. Wikipedia names and marks remain subject to their respective rights. No endorsement is implied. See [Wikipedia copyright and reuse information](https://en.wikipedia.org/wiki/Wikipedia:Copyrights).

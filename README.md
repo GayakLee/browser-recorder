@@ -2,15 +2,11 @@
 
 Record browser interactions as MP4 through a command-line interface or the Model Context Protocol (MCP). Double-click the Windows launcher for a visible browser, or use MCP for headless automation. Inspect the page, type, click, upload files, scroll, and physically zoom using MCP without Computer Use or desktop dialogs.
 
-Browser Recorder is independent of VSCode Movie and does not access your existing Chrome profile. This is an early CLI/MCP tool with an optional console launcher, not a complete standalone GUI browser.
-
-Previously named Browser Movie and Browser Record. The project, repository, launcher, and MCP server now use `browser-recorder`. Existing tool names (`movie_create`, `movie_status`, `movie_cancel`, `recording_start`, `browser_action`, `recording_stop`) remain compatible. Rename the MCP server entry and update its absolute path when migrating an existing client. Legacy `BROWSER_RECORD_*` and `BROWSER_MOVIE_*` environment settings remain accepted; prefer `BROWSER_RECORDER_*` for new configurations.
-
 ## Watch the demos
 
-[![English Wikipedia recording preview](assets/wikipedia-demo.jpg)](https://github.com/GayakLee/browser-recorder/releases/download/demos-v1/english-wikipedia.mp4)
+[![Animated English Wikipedia recording](assets/wikipedia-demo.gif)](https://github.com/GayakLee/browser-recorder/releases/download/demos-v1/english-wikipedia.mp4)
 
-Click the preview to open the English Wikipedia recording, or browse all videos in the [demo release](https://github.com/GayakLee/browser-recorder/releases/tag/demos-v1).
+The demo above plays here automatically as a looping GIF. It is a reduced-size, 8fps preview for the README, not an FPS comparison. Click it for the full-resolution MP4, or browse all videos in the [demo release](https://github.com/GayakLee/browser-recorder/releases/tag/demos-v1).
 
 | Video | What it shows |
 | --- | --- |
@@ -21,6 +17,10 @@ Click the preview to open the English Wikipedia recording, or browse all videos 
 The comparison uses 900ms zooms and automatic frame pacing, without generated frame interpolation. On the test machine, decoded zoom motion measured about 58.9 distinct changes per second at the 60fps target and 58.1 at the 120fps target. The 120fps file does not demonstrate 120 unique motion frames per second. The walkthrough is an earlier 30fps recording; the current example defaults to 60fps and 900ms zooms.
 
 Wikipedia page content is credited to its contributors under its applicable licenses. See [demo content attribution](THIRD_PARTY_NOTICES.md#demo-content-attribution). The video files are release assets; cloning the source does not download them.
+
+Browser Recorder is independent of VSCode Movie and does not access your existing Chrome profile. This is an early CLI/MCP tool with an optional console launcher, not a complete standalone GUI browser.
+
+Previously named Browser Movie and Browser Record. The project, repository, launcher, and MCP server now use `browser-recorder`. Existing tool names (`movie_create`, `movie_status`, `movie_cancel`, `recording_start`, `browser_action`, `recording_stop`) remain compatible. Rename the MCP server entry and update its absolute path when migrating an existing client. Legacy `BROWSER_RECORD_*` and `BROWSER_MOVIE_*` environment settings remain accepted; prefer `BROWSER_RECORDER_*` for new configurations.
 
 ## Choose how to run
 
